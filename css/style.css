@@ -37,6 +37,10 @@ a {
     min-width: 900px;
 }
 
+.full-width {
+    width: 100%;
+}
+
 .clear-fix::after {
     content: "";
     display: table;
@@ -55,8 +59,20 @@ a {
     color: white;
 }
 
-.text-small{
+.text-grey {
+    color: grey;
+}
+
+.text-blue{
+    color: rgb(0, 97, 254);
+}
+
+.text-small {
     font-size: 14px;
+}
+
+.text-extra-small {
+    font-size: 12px;
 }
 
 .big-headline {
@@ -76,7 +92,7 @@ a {
     margin-right: 30px;
 }
 
-.mr-5{
+.mr-5 {
     margin-right: 5px;
 }
 
@@ -88,16 +104,24 @@ a {
     margin-top: 30px;
 }
 
+.mb-40 {
+    margin-bottom: 40px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
 }
 
-.mt-20 {
-    margin-top: 20px;
+.mb-20 {
+    margin-bottom: 20px;
 }
 
-.pr-60 {
-    padding-right: 60px;
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 .btn {
@@ -132,6 +156,7 @@ section.jumbotron {
 
 div.jumbotron-text {
     width: 35%;
+    padding-right: 60px;
 }
 
 div.jumbotron-img {
@@ -168,18 +193,51 @@ div.jumbotron-img img {
     width: 10px;
 }
 
-.card{
-    height: 400px;
-    width: calc((100% / 3) - 20px);
+.card {
+    width: calc((100% / 3) - 30px);
+    height: 950px;
     border: 1px solid lightgray;
 }
 
-.card .header-card{
+.card .header-card {
     text-align: center;
     padding: 10px 0;
     border-bottom: 1px solid lightgray;
 }
 
-.card .main-card{
+.card .main-card {
     padding: 0 20px;
+}
+
+div.icon {
+    width: 5%;
+}
+
+div.icon i{
+    vertical-align: baseline;
+}
+
+div.text-description {
+    width: calc(95% - 5px);
+}
+
+a.full-width {
+    display: inline-block;
+    text-align: center;
+}
+
+div.card p a {
+    text-decoration: underline;
+    text-decoration-color: #c8ddfe;
+}
+
+div.card hr {
+    width: 40px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-bottom: 30px;
 }
