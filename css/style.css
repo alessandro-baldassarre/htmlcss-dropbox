@@ -26,12 +26,12 @@ a{
 
 /* common classes */
 .container-big{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 .clear-fix::after{
@@ -50,6 +50,11 @@ a{
 
 .text-white{
     color: white;
+}
+
+.big-headline{
+    font-size: 4.2rem;
+    margin-bottom: 2rem;
 }
 
 .mr-30{
@@ -78,6 +83,28 @@ a{
 .list-top-nav li{
     display: inline;
 
+}
+
+/* main */
+
+/* section jumbotron */
+section.jumbotron{
+    padding: 4rem 0;
+    background-color: #b5d0e6;
+}
+
+div.jumbotron-text{
+    width: 40%;
+
+    height: 300px;
+    border: 1px solid red;
+}
+
+div.jumbotron-img{
+    width: 60%;
+
+    height: 300px;
+    border: 1px solid red;
 }
 
 
