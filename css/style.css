@@ -6,7 +6,7 @@
 }
 
 /* tag classes */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -19,87 +19,95 @@ header {
     min-width: 1028px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-
 /* common classes */
-.container-big{
+.container-big {
     width: 80%;
     margin: 0 auto;
     min-width: 1028px;
 }
 
-.container{
-    width: 70%;
+.container {
+    width: 60%;
     margin: 0 auto;
-    min-width: 1028px;
+    min-width: 900px;
 }
-.clear-fix::after{
+
+.clear-fix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.float-left{
+.float-left {
     float: left;
 }
 
-.float-right{
+.float-right {
     float: right;
 }
 
-.text-white{
+.text-white {
     color: white;
 }
 
-.big-headline{
+.text-small{
+    font-size: 14px;
+}
+
+.big-headline {
     font-size: 4.2rem;
     margin-bottom: 2rem;
 }
 
-.medium-headline{
-    font-size: 2rem;
+.medium-headline {
+    font-size: 2.2rem;
 }
 
-.mr-30{
+.mr-30 {
     margin-right: 30px;
 }
 
-.ml-30{
+.ml-30 {
     margin-left: 30px;
 }
 
-.mt-30{
+.mt-30 {
     margin-top: 30px;
 }
 
-.mb-30{
+.mb-30 {
     margin-bottom: 30px;
 }
 
-.mt-20{
+.mt-20 {
     margin-top: 20px;
 }
 
-.btn{
+.pr-60 {
+    padding-right: 60px;
+}
+
+.btn {
     padding: 0.5rem 1rem;
     border: 1px solid black;
 }
 
-.btn-blue{
+.btn-blue {
     background-color: rgb(0, 97, 254);
     border: none;
 }
 
 /* header */
-.logo-small img{
+.logo-small img {
     vertical-align: text-bottom;
 }
 
-.list-top-nav li{
+.list-top-nav li {
     display: inline;
 
 }
@@ -107,25 +115,53 @@ a{
 /* main */
 
 /* section jumbotron */
-section.jumbotron{
+section.jumbotron {
     padding: 4rem 0;
     background-color: #b5d0e6;
     min-width: 1028px;
+    margin-bottom: 120px;
 }
 
-div.jumbotron-text{
+div.jumbotron-text {
     width: 35%;
 }
 
-div.jumbotron-img{
+div.jumbotron-img {
     width: 65%;
     height: 310px;
 
 }
 
-div.jumbotron-img img{
+div.jumbotron-img img {
     width: 100%;
     height: 440px;
 }
 
+/* section business plan */
+.radio-input input {
+    visibility: hidden;
+    position: absolute;
+}
 
+.radio-input input+label:before {
+    height: 16px;
+    width: 16px;
+    margin-right: 2px;
+    content: " ";
+    display: inline-block;
+    vertical-align: text-bottom;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+.radio-input input:checked+label:before {
+    border: 4px solid rgb(0, 97, 254);
+    height: 10px;
+    width: 10px;
+}
+
+.card{
+    height: 400px;
+    width: calc((100% / 3) - 20px);
+    border: 1px solid red;
+}
