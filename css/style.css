@@ -16,6 +16,7 @@ header {
     line-height: 80px;
     min-width: 800px;
     padding: 0 20px;
+    min-width: 1028px;
 }
 
 a{
@@ -28,11 +29,13 @@ a{
 .container-big{
     width: 80%;
     margin: 0 auto;
+    min-width: 1028px;
 }
 
 .container{
     width: 70%;
     margin: 0 auto;
+    min-width: 1028px;
 }
 .clear-fix::after{
     content: "";
@@ -107,6 +110,7 @@ a{
 section.jumbotron{
     padding: 4rem 0;
     background-color: #b5d0e6;
+    min-width: 1028px;
 }
 
 div.jumbotron-text{
@@ -115,9 +119,13 @@ div.jumbotron-text{
 
 div.jumbotron-img{
     width: 65%;
+    height: 310px;
 
-    height: 300px;
-    border: 1px solid red;
+}
+
+div.jumbotron-img img{
+    width: 100%;
+    height: 440px;
 }
 
 
