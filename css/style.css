@@ -207,13 +207,13 @@ div.jumbotron-img img {
     border: 1px solid lightgray;
 }
 
-.card .header-card {
+.header-card {
     text-align: center;
     padding: 10px 0;
     border-bottom: 1px solid lightgray;
 }
 
-.card .main-card {
+.main-card {
     padding: 0 20px;
 }
 
@@ -248,4 +248,12 @@ div.card hr {
     margin: 1em 0;
     padding: 0;
     margin-bottom: 30px;
+}
+
+.text-full-card{
+    width: 70%;
+}
+
+.button-full-card{
+    width: 30%;
 }
