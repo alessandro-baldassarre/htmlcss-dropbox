@@ -55,6 +55,14 @@ a {
     float: right;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
 .text-white {
     color: white;
 }
@@ -284,5 +292,61 @@ div.card hr {
 
 .operation-card {
     width: calc((100% - 140px) / 3);
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
+
+/* section affiliated teams */
+
+section.affiliated{
+    padding:100px 0 0 0;
+}
+
+.affiliated-headline a{
+    text-decoration: underline;
+
+}
+
+.affiliated-colum{
+    width: 30%;
+    
+
+    border: 1px solid red;
+}
+
+.affiliated-colum-big{
+    width: 40%;
+    
+
+    border: 1px solid red;
+}
+
+.square-colum{
+    width: 50%; 
+    padding-top: 50%;
+}
+
+.design-it{
+    background-image: url("../img/designit.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    filter: invert(1);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+
+}
+
+.square-background{
+
+    background-color: #a2d39b;
+    border: 10px solid #d0e8cc;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
