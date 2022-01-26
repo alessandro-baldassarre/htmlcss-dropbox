@@ -307,6 +307,7 @@ hr{
 
 section.affiliated{
     padding:100px 0 0 0;
+    min-width: 1100px;
 }
 
 .affiliated-headline a{
@@ -316,6 +317,8 @@ section.affiliated{
 
 .affiliated-colum{
     width: 28%;
+    
+    
 }
 
 .affiliated-colum-big{
@@ -323,6 +326,7 @@ section.affiliated{
     height: 28vw;
     background-color: #f5f5f5;
     padding: 40px;
+    min-height: 300px;
     
 
 }
@@ -334,6 +338,7 @@ section.affiliated{
 .square-colum{
     width: 50%; 
     height:  calc(28vw / 2);
+    min-height: 150px;
 }
 
 #design-it{
@@ -533,6 +538,7 @@ section.affiliated{
 section#business-start{
     background-color: #b5d0e6;
     padding: 110px 0;
+    min-width: 1100px;
 }
 
 #business-start-button{
