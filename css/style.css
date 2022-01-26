@@ -307,19 +307,24 @@ section.affiliated{
 }
 
 .affiliated-colum{
-    width: 30%;
+    width: 28%;
 }
 
 .affiliated-colum-big{
-    width: 40%;
+    width: 44%;
+    height: 28vw;
+    background-color: #f5f5f5;
     
 
-    border: 1px solid red;
+}
+
+.affiliated-colum-big img{
+    width: 20%;
 }
 
 .square-colum{
     width: 50%; 
-    padding-top: 50%;
+    height:  calc(28vw / 2);
 }
 
 #design-it{
