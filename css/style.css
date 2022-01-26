@@ -521,6 +521,22 @@ section.affiliated{
     height: 100%;
 }
 
+/* section business-start */
+section#business-start{
+    background-color: #b5d0e6;
+    padding: 110px 0;
+}
+
+#business-start-button{
+    background-color: white;
+    border: none;
+}
+
+#business-start-headline{
+    color: #60092b;
+}
+
+
 
 
 
