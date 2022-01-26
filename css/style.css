@@ -72,7 +72,7 @@ a {
 }
 
 .text-extra-small {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .big-headline {
@@ -251,9 +251,31 @@ div.card hr {
 }
 
 .text-full-card{
-    width: 70%;
+    width: 68%;
 }
 
 .button-full-card{
-    width: 30%;
+    width: 32%;
+}
+
+.contact-partner{
+    padding: 100px 0;
+}
+
+.contact-partner-img{
+    width: 57%;
+    padding-right: 40px;
+}
+
+.contact-partner-img img{
+    width: 100%;
+}
+
+.contact-partner-text{
+    width: 43%;
+    padding-top: 40px;
+}
+
+.contact-partner-text p{
+    line-height: 1.7rem;
 }
