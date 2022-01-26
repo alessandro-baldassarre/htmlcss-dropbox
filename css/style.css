@@ -88,6 +88,10 @@ a {
     font-size: 1.4rem;
 }
 
+.mr-60{
+    margin-right: 60px;
+}
+
 .mr-30 {
     margin-right: 30px;
 }
@@ -279,5 +283,5 @@ div.card hr {
 /* section operations */
 
 .operation-card {
-    width: calc((100% - 60px) / 3);
+    width: calc((100% - 120px) / 3);
 }
