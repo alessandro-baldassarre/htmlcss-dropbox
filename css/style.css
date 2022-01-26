@@ -138,6 +138,10 @@ a {
     border: none;
 }
 
+.border-gray{
+    border: 1px solid lightgray;
+}
+
 /* header */
 .logo-small img {
     vertical-align: text-bottom;
@@ -200,12 +204,8 @@ div.jumbotron-img img {
 .card {
     width: calc((100% - 60px) / 3);
     height: 900px;
-    border: 1px solid lightgray;
 }
 
-.card-fullwidth{
-    border: 1px solid lightgray;
-}
 
 .header-card {
     text-align: center;
@@ -267,10 +267,6 @@ div.card hr {
     padding-right: 40px;
 }
 
-.contact-partner-img img{
-    width: 100%;
-}
-
 .contact-partner-text{
     width: 43%;
     padding-top: 40px;
@@ -278,4 +274,10 @@ div.card hr {
 
 .contact-partner-text p{
     line-height: 1.7rem;
+}
+
+/* section operations */
+
+.operation-card {
+    width: calc((100% - 60px) / 3);
 }
