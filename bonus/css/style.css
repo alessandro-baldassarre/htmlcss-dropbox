@@ -185,6 +185,7 @@ a {
 
 }
 
+/* hover effects */
 .list-top-nav li:hover{
     padding-bottom: 26px;
     padding-top: 29px;
@@ -214,8 +215,8 @@ a {
     display: block;
 }
 
-.right-nav .btn:hover{
-    opacity: 0.7;
+.btn:hover{
+    opacity: 0.5;
 
 }
 
@@ -470,6 +471,31 @@ section.questions{
 .questions-chevron{
     text-align: right;
     padding-right: 30px;
+}
+
+/* hover effects */
+
+.text-hover{
+    display: none;
+    padding-top: 20px;
+}
+
+.up{
+    display: none;
+    top: 100px;
+}
+
+.wrapper-questions .text-full-width:hover .text-hover{
+    display: block;
+}
+
+.wrapper-questions .text-full-width:hover + .down{
+    display: none;
+}
+
+
+.wrapper-questions .text-full-width:hover ~ .up{
+    display: block;
 }
 
 /* section footer */
