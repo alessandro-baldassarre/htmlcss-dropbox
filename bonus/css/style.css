@@ -524,5 +524,15 @@ footer{
     margin-left: 2px;
 }
 
+/* hover effects */
+
+.list-footer a:hover{
+    text-decoration: underline;
+}
+
+.language a:hover{
+    text-decoration: underline;
+}
+
 
 
