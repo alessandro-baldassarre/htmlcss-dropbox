@@ -421,4 +421,19 @@ section.questions{
     padding-right: 30px;
 }
 
+/* section footer */
+
+footer{
+    background-color: black;
+    padding: 6rem 0;
+}
+
+.list-footer{
+    width: calc(100% / 5);
+}
+
+.list-footer li{
+    line-height: 0.3rem;
+}
+
 
