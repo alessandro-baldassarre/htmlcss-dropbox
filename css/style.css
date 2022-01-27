@@ -426,6 +426,7 @@ section.questions{
 footer{
     background-color: black;
     padding: 6rem 0;
+    min-width: 600px;
 }
 
 .list-footer{
@@ -435,5 +436,16 @@ footer{
 .list-footer li{
     line-height: 0.3rem;
 }
+
+#footer-hr{
+    width: 7vw;
+}
+
+#sort-up-icon{
+    font-size: 10px;
+    vertical-align: baseline;
+    margin-left: 2px;
+}
+
 
 
