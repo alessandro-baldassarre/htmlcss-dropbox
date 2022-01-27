@@ -1,0 +1,477 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* tag classes */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+    min-width: 1080px;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* common classes */
+.container-big {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    min-width: 900px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.clear-fix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.text-blue{
+    color: rgb(0, 97, 254);
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+.text-extra-small {
+    font-size: 13px;
+}
+
+.big-headline {
+    font-size: 4.2rem;
+}
+
+.medium-headline {
+    font-size: 2.2rem;
+}
+
+.normal-headline{
+    font-size: 1.8rem;
+}
+
+.small-headline {
+    font-size: 1.4rem;
+}
+
+.mr-70{
+    margin-right: 70px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-60{
+    margin-bottom: 60px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+}
+
+.btn-blue {
+    background-color: rgb(0, 97, 254);
+    border: none;
+}
+
+.border-gray{
+    border: 1px solid lightgray;
+}
+
+/* header */
+.logo-small img {
+    vertical-align: text-bottom;
+}
+
+.list-top-nav li {
+    display: inline;
+
+}
+
+.list-top-nav li:hover{
+    padding-bottom: 29px ;
+    border-bottom: 3px solid black;
+}
+
+.hover-box{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 20vw;
+    
+    
+    
+}
+
+#support-nav:hover .hover-box{
+    display: block;
+
+}
+/* main */
+
+/* section jumbotron */
+section#jumbotron {
+    padding: 4rem 0 0 0;
+    background-color: #b5d0e6;
+    margin-bottom: 200px;
+    margin-top: 80px;
+    min-width: 935px;
+}
+
+div.jumbotron-text {
+    width: 35%;
+    padding: 70px 60px 0 0;
+}
+
+div.jumbotron-img {
+    width: 65%;
+    
+
+}
+
+div.jumbotron-img img {
+    width: 100%;
+    top: 70px;
+}
+
+/* section business plan */
+.radio-input input {
+    visibility: hidden;
+    position: absolute;
+}
+
+.radio-input input+label:before {
+    height: 16px;
+    width: 16px;
+    margin-right: 2px;
+    content: " ";
+    display: inline-block;
+    vertical-align: text-bottom;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+.radio-input input:checked+label:before {
+    border: 4px solid rgb(0, 97, 254);
+    height: 10px;
+    width: 10px;
+}
+
+.card {
+    width: calc((100% - 60px) / 3);
+    height: 900px;
+}
+
+
+.header-card {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.main-card {
+    padding: 0 20px;
+}
+
+div.icon {
+    width: 5%;
+}
+
+div.icon i{
+    vertical-align: baseline;
+}
+
+div.text-description {
+    width: calc(95% - 5px);
+}
+
+a.full-width {
+    display: inline-block;
+    text-align: center;
+}
+
+div.card p a {
+    text-decoration: underline;
+    text-decoration-color: #c8ddfe;
+}
+
+hr{
+    width: 40px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.text-full-width{
+    width: 68%;
+}
+
+.button-full-width{
+    width: 32%;
+}
+
+.contact-partner{
+    padding: 100px 0;
+}
+
+.contact-partner-img{
+    width: 57%;
+    padding-right: 40px;
+}
+
+.contact-partner-text{
+    width: 43%;
+    padding-top: 40px;
+}
+
+.contact-partner-text p{
+    line-height: 1.7rem;
+}
+
+/* section operations */
+
+.operation-card {
+    width: calc((100% - 140px) / 3);
+    margin-bottom: 70px;
+}
+
+/* section affiliated teams */
+
+section.affiliated{
+    padding:100px 0 0 0;
+}
+
+.affiliated-headline a{
+    text-decoration: underline;
+
+}
+
+.affiliated-colum{
+    width: 30vw;
+    height: 30vw;
+}
+
+.affiliated-colum img{
+    width: 50%;
+    filter: invert(1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.affiliated-colum-big{
+    background-color: #f5f5f5;
+    padding: 40px;
+    height: 30vw;
+    width: calc(100% - 60vw);
+    overflow: auto;
+    
+
+}
+
+.affiliated-colum-big img{
+    width: 23%;
+}
+
+.square-colum{
+    width: 15vw;
+    height: 15vw;
+}
+
+#design-it{
+
+    background-color: #a2d39b;
+    border: 10px solid #d0e8cc;
+}
+
+
+#arizona{
+    background-color: #60092b;
+}
+
+
+#florida{
+
+    background-color: #0192ce;
+}
+
+
+#topps{
+
+    background-color: #ff1d1d;
+}
+
+
+#world-bicycle{
+
+    background-color: #d5001f;
+}
+
+
+#hearst{
+
+    background-color: #b5d0e6;
+
+}
+
+
+
+#lonely{
+
+    background-color: #0d2580;
+}
+
+
+#clear{
+
+    background-color: #ffd931;
+
+}
+
+/* section business-start */
+section#business-start{
+    background-color: #b5d0e6;
+    padding: 110px 0;
+    min-width: 1100px;
+}
+
+#business-start-button{
+    background-color: white;
+    border: none;
+}
+
+#business-start-headline{
+    color: #60092b;
+}
+
+/* section frequently questions */
+
+section.questions{
+    padding: 110px 0;
+}
+
+.questions-chevron{
+    text-align: right;
+    padding-right: 30px;
+}
+
+/* section footer */
+
+footer{
+    background-color: black;
+    padding: 6rem 0 1rem;
+    min-width: 600px;
+}
+
+.list-footer{
+    width: calc(100% / 5);
+}
+
+.list-footer li{
+    line-height: 0.3rem;
+}
+
+#footer-hr{
+    width: 7vw;
+}
+
+#sort-up-icon{
+    font-size: 10px;
+    vertical-align: baseline;
+    margin-left: 2px;
+}
+
+
+
