@@ -28,7 +28,7 @@ a {
 .container-big {
     width: 80%;
     margin: 0 auto;
-    min-width: 1028px;
+    /* min-width: 1028px; */
 }
 
 .container {
@@ -85,7 +85,6 @@ a {
 
 .big-headline {
     font-size: 4.2rem;
-    margin-bottom: 2rem;
 }
 
 .medium-headline {
@@ -175,27 +174,26 @@ a {
 /* main */
 
 /* section jumbotron */
-section.jumbotron {
-    padding: 4rem 0;
+section#jumbotron {
+    padding: 4rem 0 0 0;
     background-color: #b5d0e6;
-    min-width: 1028px;
     margin-bottom: 200px;
 }
 
 div.jumbotron-text {
     width: 35%;
-    padding-right: 60px;
+    padding: 70px 60px 0 0;
 }
 
 div.jumbotron-img {
     width: 65%;
-    height: 310px;
+    
 
 }
 
 div.jumbotron-img img {
     width: 100%;
-    height: 440px;
+    top: 70px;
 }
 
 /* section business plan */
@@ -307,7 +305,6 @@ hr{
 
 section.affiliated{
     padding:100px 0 0 0;
-    min-width: 1100px;
 }
 
 .affiliated-headline a{
@@ -316,17 +313,24 @@ section.affiliated{
 }
 
 .affiliated-colum{
-    width: 400px;
-    height: 400px;
-    
-    
+    width: 30vw;
+    height: 30vw;
+}
+
+.affiliated-colum img{
+    width: 50%;
+    filter: invert(1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .affiliated-colum-big{
     background-color: #f5f5f5;
     padding: 40px;
-    height: 400px;
-    width: calc(100% - 800px);
+    height: 30vw;
+    width: calc(100% - 60vw);
+    overflow: auto;
     
 
 }
@@ -336,201 +340,58 @@ section.affiliated{
 }
 
 .square-colum{
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
 }
 
 #design-it{
-    background-image: url("../img/designit.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60%;
-    filter: invert(1);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    
-
-}
-
-#design-it-background{
 
     background-color: #a2d39b;
     border: 10px solid #d0e8cc;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
+
 
 #arizona{
-    background-image: url("../img/arizona_state_university.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50%;
-    filter: invert(1);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    
-
-}
-
-#arizona-background{
-
     background-color: #60092b;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
+
 
 #florida{
-    background-image: url("../img/university_of_florida.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60%;
-    filter: invert(1);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    
-
-}
-
-#florida-background{
 
     background-color: #0192ce;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
+
 
 #topps{
-    background-image: url("../img/topps.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60%;
-    filter: invert(1);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    
-
-}
-
-#topps-background{
 
     background-color: #ff1d1d;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
+
 
 #world-bicycle{
-    background-image: url("../img/world_bicycle_relief.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60%;
-    filter: invert(1);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    
-
-}
-
-#world-bicycle-background{
 
     background-color: #d5001f;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
+
 
 #hearst{
-    background-image: url("../img/hearst_corp.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60%;
-    filter: invert(1);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    
-
-}
-
-#hearst-background{
 
     background-color: #b5d0e6;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
 }
+
+
 
 #lonely{
-    background-image: url("../img/lonely_planet.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60%;
-    filter: invert(1);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    
-
-}
-
-#lonely-background{
 
     background-color: #0d2580;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
+
 
 #clear{
-    background-image: url("../img/clear_channel.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60%;
-    filter: invert(1);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    
-
-}
-
-#clear-background{
 
     background-color: #ffd931;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
 }
 
 /* section business-start */
